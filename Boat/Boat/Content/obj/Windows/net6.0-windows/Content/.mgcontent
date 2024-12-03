@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/../Island.fx</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/../Water.fx</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/boat_plastic.jpg</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/boat.fbx</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/ec135.bmp</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/ec1351.bmp</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/Helecopter.fbx</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/islandColor.jpg</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/islandHeight.jpg</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/logo.jpg</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/number.jpg</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/Segoe.spritefont</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/skyhalf.jpg</File>
+    <File>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/wave2.dds</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>Island.fx</File>
+    <File>Water.fx</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

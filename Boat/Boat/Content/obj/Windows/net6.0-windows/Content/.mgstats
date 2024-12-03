@@ -1,0 +1,15 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/../Island.fx","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/Island.xnb","EffectProcessor","CompiledEffectContent",1822,4486,0.5145241
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/../Water.fx","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/Water.xnb","EffectProcessor","CompiledEffectContent",3505,4428,0.4287433
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/boat_plastic.jpg","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/boat_plastic_0.xnb","TextureProcessor","Texture2DContent",10610,801,0.0030826
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/boat.fbx","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/boat.xnb","ModelProcessor","ModelContent",1659616,1638818,0.6450053
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/ec135.bmp","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/ec135_0.xnb","TextureProcessor","Texture2DContent",3145782,699189,0.7094727
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/ec1351.bmp","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/ec1351_0.xnb","TextureProcessor","Texture2DContent",3145782,699189,0.7355213
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/Helecopter.fbx","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/Helecopter.xnb","ModelProcessor","ModelContent",815148,591677,1.551174
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/islandColor.jpg","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/islandColor.xnb","TextureProcessor","Texture2DContent",1292568,16777301,0.3753447
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/islandHeight.jpg","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/islandHeight.xnb","TextureProcessor","Texture2DContent",3063,65621,0.0029905
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/logo.jpg","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/logo.xnb","TextureProcessor","Texture2DContent",40863,1048661,0.0196747
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/number.jpg","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/number.xnb","TextureProcessor","Texture2DContent",15268,262229,0.0066506
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/Segoe.spritefont","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/Segoe.xnb","FontDescriptionProcessor","SpriteFontContent",2071,21535,0.109762
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/skyhalf.jpg","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/skyhalf.xnb","TextureProcessor","Texture2DContent",216601,8388693,0.1922523
+"C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/wave2.dds","C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/wave2.xnb","TextureProcessor","Texture2DContent",349652,349641,0.0104233

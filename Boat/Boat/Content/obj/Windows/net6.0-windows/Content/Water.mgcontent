@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/../Water.fx</SourceFile>
+  <SourceTime>2024-12-01T00:27:20.3601673+01:00</SourceTime>
+  <DestFile>C:/Users/Balazs/Desktop/c#/boatHF/Boat/Boat/Content/bin/Windows/Content/Water.xnb</DestFile>
+  <DestTime>2024-12-03T20:12:00.9068131+01:00</DestTime>
+  <Importer>EffectImporter</Importer>
+  <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
+  <Processor>EffectProcessor</Processor>
+  <ProcessorTime>2022-07-26T13:44:56+02:00</ProcessorTime>
+  <Parameters>
+    <Key>DebugMode</Key>
+    <Value>Auto</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
