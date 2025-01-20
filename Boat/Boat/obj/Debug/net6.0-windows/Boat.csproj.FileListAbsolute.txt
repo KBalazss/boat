@@ -110,3 +110,4 @@ C:\Users\Balazs\Desktop\c#\boatHF\Boat\Boat\obj\Debug\net6.0-windows\refint\Boat
 C:\Users\Balazs\Desktop\c#\boatHF\Boat\Boat\obj\Debug\net6.0-windows\Boat.pdb
 C:\Users\Balazs\Desktop\c#\boatHF\Boat\Boat\obj\Debug\net6.0-windows\Boat.genruntimeconfig.cache
 C:\Users\Balazs\Desktop\c#\boatHF\Boat\Boat\obj\Debug\net6.0-windows\ref\Boat.dll
+C:\Users\Balazs\Desktop\c#\boatHF\Boat\Boat\obj\Debug\net6.0-windows\Boat.sourcelink.json

@@ -132,7 +132,7 @@ namespace BoatSim
                 helicopter.ctrlQ = keyboard.IsKeyDown(Keys.Q);
                 helicopter.ctrlE = keyboard.IsKeyDown(Keys.E);
                 helicopter.ctrlB = keyboard.IsKeyDown(Keys.B);
-                helicopter.Step();
+                helicopter.Step(gameTime);
             }
             SendAndReceive();
             ResolveCollisions();
