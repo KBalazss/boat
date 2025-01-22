@@ -47,7 +47,6 @@ namespace BoatSim
                 new Verlet( pos + new Vector3( -size, 0, size ) ), // Back-left
                 new Verlet( pos + new Vector3( -size, 0, -size ) ),// Front-left
                 new Verlet( pos + new Vector3( 0, 0, 0 ) ),        // Center (rotor)
-                //new Verlet( pos + new Vector3(0,0.2f, 0) ),
             };
 
             GenerateFullyConnectedBody();
@@ -71,11 +70,7 @@ namespace BoatSim
                 Matrix worldMatrix = localTransform * WorldTransform;
                 if (mesh.Name == "static_rotor")
                 {
-                    worldMatrix = rotorRotation * localTransform * WorldTransform;
-                    //foreach (ModelMeshPart part in mesh.MeshParts)
-                    //{
-                    //    part.Effect.Parameters["World"].SetValue(rotorRotation);
-                    //}         
+                    worldMatrix = rotorRotation * localTransform * WorldTransform;    
                 }
                 foreach (BasicEffect effect in mesh.Effects)
                 {
@@ -115,25 +110,16 @@ namespace BoatSim
 
              //Gravity Force
             Vector3 gravity = new Vector3(0, -9.81f, 0);
-            for (int i = 0; i < verlets.Length; i++)
-                verlets[i].Acc = gravity;
 
             Vector3 d = Vector3.Normalize(Direction);
             Vector3 r = Vector3.Normalize(Right);
             Vector3 u = Vector3.Normalize(Up);
 
-            if (ctrlB) // Or any other condition to reset orientation
-            {
-                verlets[4].Acc = Vector3.Up;
-                verlets[4].Acc = d;
-            }
-            
-
             for (int i = 0; i < verlets.Length; i++)
             {
 
                 var verlet = verlets[i];
-                verlet.Acc = Vector3.Zero;
+                //verlet.Acc = Vector3.Zero;
                 verlet.Omega = Vector3.Zero;
                 verlet.Acc = gravity;
                 float lo = (float)Math.Sqrt(Vector3.Dot(verlet.Velocity, verlet.Velocity));
@@ -172,10 +158,10 @@ namespace BoatSim
 
                 // Strafing (A/D)
                 if (ctrlA)
-                    verlet.Acc += -r * 50f; // Move left
+                    verlet.Acc -= r * 50f; // Move left
                     
                 if (ctrlD)
-                   verlet.Acc += r * 50f; // Move right
+                    verlet.Acc += r * 50f; // Move right
                 if (ctrlQ)
                 {
                     verlet.Omega = new Vector3(0,1,0);
@@ -187,24 +173,6 @@ namespace BoatSim
 
                     verlets[i]= verlet;
             }
-            // Yaw (Q/E) - rotation around vertical axis (Up)
-            // Forgás balra, ha "ctrlQ" lenyomva van
-            /*
-            if (ctrlQ)
-            {
-                verlets[0].Acc += r * 10f; // Gyorsítás balra forgáshoz
-                verlets[3].Acc += r * 10f;
-                verlets[1].Acc -= r * 10f; // Gyorsítás balra forgáshoz
-                verlets[2].Acc -= r * 10f;
-            }
-            if (ctrlE)// Rotate right
-            {
-                verlets[0].Acc -= r * 10f; // Gyorsítás balra forgáshoz
-                verlets[3].Acc -= r * 10f;
-                verlets[1].Acc += r * 10f; // Gyorsítás balra forgáshoz
-                verlets[2].Acc += r * 10f;
-            }
-            */
         }
    
 

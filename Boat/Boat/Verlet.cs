@@ -40,7 +40,6 @@ namespace BoatSim
             Velocity += Acc * dT;
          }
 
-
         public void AddSqFriction(Vector3 fDir, float fC)
         {
             float length = Vector3.Dot(Velocity, fDir);
