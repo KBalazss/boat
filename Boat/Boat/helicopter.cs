@@ -24,6 +24,8 @@ namespace BoatSim
         public Vector3 Right => verlets[0].Pos - verlets[3].Pos;
         public Vector3 Direction => verlets[0].Pos - verlets[1].Pos;
         public Vector3 Up => Vector3.Cross(Right,Direction);
+        public Vector3 alfa;
+        public Vector3 alfaMax = new Vector3((float)Math.PI/4,0, (float)Math.PI / 6); 
         public Matrix WorldTransform => Matrix.CreateWorld(Position,
             Vector3.Normalize(Direction), Vector3.Normalize(Up));
         private float rotorAngle = 0f;
@@ -41,6 +43,14 @@ namespace BoatSim
             var pos = new Vector3((float)rng.NextDouble() * 20, 5, (float)rng.NextDouble() * 20);
 
             verlets = new Verlet[]
+            {
+                new Verlet( pos + new Vector3( size, 0, -size ) ), // Front-right
+                new Verlet( pos + new Vector3( size, 0, size ) ),  // Back-right
+                new Verlet( pos + new Vector3( -size, 0, size ) ), // Back-left
+                new Verlet( pos + new Vector3( -size, 0, -size ) ),// Front-left
+                new Verlet( pos + new Vector3( 0, 0, 0 ) ),        // Center (rotor)
+            };
+            verletOrig = new Verlet[]
             {
                 new Verlet( pos + new Vector3( size, 0, -size ) ), // Front-right
                 new Verlet( pos + new Vector3( size, 0, size ) ),  // Back-right
@@ -102,6 +112,7 @@ namespace BoatSim
                 verlets[i].helistep(verlets[4].Pos);
             }
             ApplyConstraints();
+            //ApplyConstraintsheli();
             collision.WorldTransform = WorldTransform;
         }
 
@@ -127,54 +138,119 @@ namespace BoatSim
                 if (lo == 0) { vv = Vector3.Zero; }
                 Vector3 Fric = -lo * lo * vv;
 
-
-
-                
-                float height = verlets[i].Pos.Y;
-                if (height < 0)
-                {
-                    verlets[i].Acc += Vector3.Up * Math.Min(-height * 50, 30);
-                    verlets[i].AddSqFriction(Vector3.Up, 10);
-                }
-                float fHeight = Math.Max(0.5f - verlets[i].Pos.Y, 0);
-                verlets[i].AddSqFriction(d, 0.05f * fHeight);
-                verlets[i].AddSqFriction(r, 0.5f * fHeight);
-                verlets[i].AddSqFriction(u, 5 * fHeight);
-                
-
                 verlet.Acc += Fric;
-
-                // Helicopter lift (space to ascend, shift to descend)
+                
                 if (ctrlSpace)
-                    verlet.Acc += Vector3.Up * 80f; // Ascend
-                if (ctrlShift)
-                    verlet.Acc -= Vector3.Up * 10f; // Descend
+                    verlet.Acc += u * 180f; // Ascend
 
-                // Forward/backward movement (W/S)
-                if (ctrlW)
-                    verlet.Acc += d * 80f; // Move forward
-                if (ctrlS)
-                    verlet.Acc -= d * 50f; // Move backward
-
-                // Strafing (A/D)
-                if (ctrlA)
-                    verlet.Acc -= r * 50f; // Move left
-                    
-                if (ctrlD)
-                    verlet.Acc += r * 50f; // Move right
                 if (ctrlQ)
-                {
-                    verlet.Omega = new Vector3(0,1,0);
-                }
+                    verlet.Omega = new Vector3(0, 1, 0);
+
                 if (ctrlE)
-                {
                     verlet.Omega = new Vector3(0, -1, 0);
+
+                verlets[i]= verlet;
+            }
+
+            if (ctrlW)
+            {
+                if (d.Y >= -Math.Sin(alfaMax.X))
+                {
+                    //tilt(new Vector3(-0.01f, 0, 0));
+                    tilt(-r * 0.01f);
+                }
+            }
+            else if (ctrlS)
+            {
+                if (d.Y <= Math.Sin(alfaMax.X))
+                {
+                    //tilt(new Vector3(0.01f, 0, 0));
+                    tilt(r * 0.01f);
+                }
+            }
+            else
+            {
+                if (Math.Abs(d.Y) <= Math.Sin(0.01f))
+                {
+                    float a = (float)Math.Asin(d.Y);
+                    if (a != 0)
+                    {
+                           tilt(-r * a);
+                    }
+                    
                 }
 
-                    verlets[i]= verlet;
+                if ( d.Y > Math.Asin(0.01f))
+                {
+                    tilt(-r * 0.01f);
+                }
+                else if (d.Y < -Math.Asin(0.01f)) { tilt(r * 0.01f); }
+       
+            }
+            if (ctrlA)
+            {
+                if (r.Y <= Math.Sin(alfaMax.Z))
+                {
+                    //tilt(new Vector3(0, 0, 0.01f));
+                    tilt(-d * 0.01f);
+                }
+            }
+            else if (ctrlD)
+            {
+                if (r.Y >= -Math.Sin(alfaMax.Z))
+                {
+                    //tilt(new Vector3(0, 0, -0.01f));
+                    tilt(d * 0.01f);
+                }
+            }
+            else
+            {
+                //if (Math.Abs(alfa.Z) <= 0.01f )
+                    alfa.Z = 0;
+
+                //tilt(new Vector3(0, 0,0.01f * -Math.Sign(alfa.Z)));
+                if (r.Y > Math.Asin(0.01f))
+                {
+                    tilt(d * 0.01f);
+                }
+                else if (r.Y < -Math.Asin(0.01f)) { tilt(-d * 0.01f); }
+
             }
         }
-   
+        
+        public void tiltf(float tiltAmount)
+        {
+            float frontTilt = -tiltAmount; // Lower the front
+            float backTilt = tiltAmount;  // Raise the back
+
+
+            // Adjust Y positions of front and back Verlets
+            verlets[0].Pos.Y += frontTilt; // Front-right
+            verlets[3].Pos.Y += frontTilt; // Front-left
+            verlets[1].Pos.Y += backTilt;  // Back-right
+            verlets[2].Pos.Y += backTilt;  // Back-left
+        }
+        public void tiltside(float tiltAmount)
+        {
+            float frontTilt = -tiltAmount; // Lower the front
+            float backTilt = tiltAmount;  // Raise the back
+            
+            // Adjust Y positions of front and back Verlets
+            verlets[0].Pos.Y += frontTilt; // Front-right
+            verlets[1].Pos.Y += frontTilt;  // Back-right
+            verlets[3].Pos.Y += backTilt; // Front-left
+            verlets[2].Pos.Y += backTilt;  // Back-left
+        }
+
+        public void tilt(Vector3 dAlfa)
+        {
+            verlets[0].Pos += Vector3.Cross(dAlfa, verlets[0].Pos - verlets[4].Pos);
+            verlets[1].Pos += Vector3.Cross(dAlfa, verlets[1].Pos - verlets[4].Pos);
+            verlets[2].Pos += Vector3.Cross(dAlfa, verlets[2].Pos - verlets[4].Pos);
+            verlets[3].Pos += Vector3.Cross(dAlfa, verlets[3].Pos - verlets[4].Pos);
+            alfa += dAlfa;
+
+        }
 
         public static void Collide(Helicopter b1, Helicopter b2)
         {
@@ -188,6 +264,16 @@ namespace BoatSim
                 b2.ApplyConstraints();
             }
         }
-
+        private void ApplyConstraintsheli()
+        {
+            Verlet.ApplyLengthConstraint(ref verlets[0], ref verlets[1], 2f); // Front-right to Back-right
+            Verlet.ApplyLengthConstraint(ref verlets[1], ref verlets[2], 2f); // Back-right to Back-left
+            Verlet.ApplyLengthConstraint(ref verlets[2], ref verlets[3], 2f); // Back-left to Front-left
+            Verlet.ApplyLengthConstraint(ref verlets[3], ref verlets[0], 2f); // Front-left to Front-right
+            Verlet.ApplyLengthConstraint(ref verlets[0], ref verlets[4], 1.5f); // Front-right to Center
+            Verlet.ApplyLengthConstraint(ref verlets[1], ref verlets[4], 1.5f); // Back-right to Center
+            Verlet.ApplyLengthConstraint(ref verlets[2], ref verlets[4], 1.5f); // Back-left to Center
+            Verlet.ApplyLengthConstraint(ref verlets[3], ref verlets[4], 1.5f); // Front-left to Center
+        }
     }
 }

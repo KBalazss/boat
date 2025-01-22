@@ -9,6 +9,7 @@ namespace BoatSim
     internal class Body
     {
         public Verlet[] verlets;
+        public Verlet[] verletOrig;
         protected int[] cPairs;
         protected float[] cLengths;
         protected bool cPrevDir = false;
