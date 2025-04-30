@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\verlet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\verlet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\helicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\helicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,48 +15,56 @@
       "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\boat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\collision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\verlet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\verlet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\content\\segoe.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\content\\segoe.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\content\\helecopter.fbx||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\content\\helecopter.fbx||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\basicgeometry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\basicgeometry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\content\\boat.fbx||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\content\\boat.fbx||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\icon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\sky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\sky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\content\\segoe.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\content\\segoe.spritefont||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\content\\boat.fbx||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\content\\boat.fbx||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Balazs\\Desktop\\orak\\boat\\Content\\wave2.dds||{58961B49-13E0-48C0-9258-13CBC4D40279}"
@@ -101,6 +113,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Icon.ico - Icon [256x256, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Icon.ico",
+              "RelativeDocumentMoniker": "Boat\\Icon.ico",
+              "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Icon.ico - Icon [256x256, 32 bit, PNG]",
+              "RelativeToolTip": "Boat\\Icon.ico - Icon [256x256, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-01-19T22:02:05.756Z",
+              "EditorCaption": " - Icon [256x256, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Segoe.spritefont",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Content\\Segoe.spritefont",
               "RelativeDocumentMoniker": "Boat\\Content\\Segoe.spritefont",
@@ -112,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Body.cs",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Body.cs",
               "RelativeDocumentMoniker": "Boat\\Body.cs",
@@ -124,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "BasicGeometry.cs",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\BasicGeometry.cs",
               "RelativeDocumentMoniker": "Boat\\BasicGeometry.cs",
@@ -136,32 +160,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Verlet.cs",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Verlet.cs",
               "RelativeDocumentMoniker": "Boat\\Verlet.cs",
               "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Verlet.cs",
               "RelativeToolTip": "Boat\\Verlet.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T17:47:35.915Z"
+              "WhenOpened": "2024-12-01T17:47:35.915Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "helicopter.cs",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\helicopter.cs",
               "RelativeDocumentMoniker": "Boat\\helicopter.cs",
               "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\helicopter.cs",
               "RelativeToolTip": "Boat\\helicopter.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAAAJ8AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAJgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T17:45:15.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Collision.cs",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Collision.cs",
               "RelativeDocumentMoniker": "Boat\\Collision.cs",
@@ -169,11 +194,12 @@
               "RelativeToolTip": "Boat\\Collision.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T17:11:56.466Z"
+              "WhenOpened": "2024-12-01T17:11:56.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "boat.fbx",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Content\\boat.fbx",
               "RelativeDocumentMoniker": "Boat\\Content\\boat.fbx",
@@ -184,19 +210,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Boat.cs",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Boat.cs",
               "RelativeDocumentMoniker": "Boat\\Boat.cs",
               "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Boat.cs",
               "RelativeToolTip": "Boat\\Boat.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAkwHIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T17:07:56.49Z"
+              "WhenOpened": "2024-12-01T17:07:56.49Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Camera.cs",
+              "RelativeDocumentMoniker": "Boat\\Camera.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Camera.cs",
+              "RelativeToolTip": "Boat\\Camera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:59:50.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Game1.cs",
+              "RelativeDocumentMoniker": "Boat\\Game1.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Game1.cs",
+              "RelativeToolTip": "Boat\\Game1.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAJEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:01:26.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Helecopter.fbx",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Content\\Helecopter.fbx",
+              "RelativeDocumentMoniker": "Boat\\Content\\Helecopter.fbx",
+              "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Content\\Helecopter.fbx",
+              "RelativeToolTip": "Boat\\Content\\Helecopter.fbx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003127|",
+              "WhenOpened": "2025-01-20T17:43:09.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Water.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Water.cs",
+              "RelativeDocumentMoniker": "Boat\\Water.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Water.cs",
+              "RelativeToolTip": "Boat\\Water.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T19:20:47.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Sky.cs",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Sky.cs",
               "RelativeDocumentMoniker": "Boat\\Sky.cs",
@@ -208,19 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Game1.cs",
-              "RelativeDocumentMoniker": "Boat\\Game1.cs",
-              "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Game1.cs",
-              "RelativeToolTip": "Boat\\Game1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T17:01:26.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Program.cs",
               "RelativeDocumentMoniker": "Boat\\Program.cs",
@@ -232,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Network.cs",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Network.cs",
               "RelativeDocumentMoniker": "Boat\\Network.cs",
@@ -244,19 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Camera.cs",
-              "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Camera.cs",
-              "RelativeDocumentMoniker": "Boat\\Camera.cs",
-              "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Camera.cs",
-              "RelativeToolTip": "Boat\\Camera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T16:59:50.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "wave2.dds",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\orak\\boat\\Content\\wave2.dds",
               "RelativeDocumentMoniker": "..\\..\\..\\orak\\boat\\Content\\wave2.dds",
@@ -267,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "skyhalf.jpg",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\orak\\boat\\Content\\skyhalf.jpg",
               "RelativeDocumentMoniker": "..\\..\\..\\orak\\boat\\Content\\skyhalf.jpg",
@@ -278,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Segoe.spritefont",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\orak\\boat\\Content\\Segoe.spritefont",
               "RelativeDocumentMoniker": "..\\..\\..\\orak\\boat\\Content\\Segoe.spritefont",
@@ -290,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "number.jpg",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\orak\\boat\\Content\\number.jpg",
               "RelativeDocumentMoniker": "..\\..\\..\\orak\\boat\\Content\\number.jpg",
@@ -301,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "logo.jpg",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\orak\\boat\\Content\\logo.jpg",
               "RelativeDocumentMoniker": "..\\..\\..\\orak\\boat\\Content\\logo.jpg",
@@ -312,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "islandHeight.png",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\orak\\boat\\Content\\islandHeight.png",
               "RelativeDocumentMoniker": "..\\..\\..\\orak\\boat\\Content\\islandHeight.png",
@@ -323,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "islandHeight.jpg",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\orak\\boat\\Content\\islandHeight.jpg",
               "RelativeDocumentMoniker": "..\\..\\..\\orak\\boat\\Content\\islandHeight.jpg",
@@ -334,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "islandColor.jpg",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\orak\\boat\\Content\\islandColor.jpg",
               "RelativeDocumentMoniker": "..\\..\\..\\orak\\boat\\Content\\islandColor.jpg",
@@ -345,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "boat_plastic.jpg",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\orak\\boat\\Content\\boat_plastic.jpg",
               "RelativeDocumentMoniker": "..\\..\\..\\orak\\boat\\Content\\boat_plastic.jpg",
@@ -356,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "boat.fbx",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\orak\\boat\\Content\\boat.fbx",
               "RelativeDocumentMoniker": "..\\..\\..\\orak\\boat\\Content\\boat.fbx",
@@ -367,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": ".mgstats",
               "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Content\\obj\\Windows\\net6.0-windows\\Content\\.mgstats",
               "RelativeDocumentMoniker": "Boat\\Content\\obj\\Windows\\net6.0-windows\\Content\\.mgstats",
