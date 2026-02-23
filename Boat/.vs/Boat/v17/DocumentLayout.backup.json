@@ -1,12 +1,69 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\helicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\helicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|c:\\users\\balazs\\desktop\\c#\\boathf\\boat\\boat\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F80E1C0-E7F2-4E2C-9BAE-27E5C6BC29C9}|Boat\\Boat.csproj|solutionrelative:boat\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Game1.cs",
+              "RelativeDocumentMoniker": "Boat\\Game1.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\Game1.cs",
+              "RelativeToolTip": "Boat\\Game1.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAIUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T20:40:36.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HUD.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\HUD.cs",
+              "RelativeDocumentMoniker": "Boat\\HUD.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\HUD.cs",
+              "RelativeToolTip": "Boat\\HUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T20:19:23.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "helicopter.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\helicopter.cs",
+              "RelativeDocumentMoniker": "Boat\\helicopter.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Desktop\\c#\\boatHF\\Boat\\Boat\\helicopter.cs",
+              "RelativeToolTip": "Boat\\helicopter.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAAAMoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:49:08.213Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

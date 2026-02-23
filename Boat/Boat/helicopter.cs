@@ -25,7 +25,7 @@ namespace BoatSim
         public Vector3 Direction => verlets[0].Pos - verlets[1].Pos;
         public Vector3 Up => Vector3.Cross(Right,Direction);
         public Vector3 alfa;
-        public Vector3 alfaMax = new Vector3((float)Math.PI/4,0, (float)Math.PI / 6); 
+        public Vector3 alfaMax = new Vector3((float)Math.PI/6,0, (float)Math.PI / 6); 
         public Matrix WorldTransform => Matrix.CreateWorld(Position,
             Vector3.Normalize(Direction), Vector3.Normalize(Up));
         private float rotorAngle = 0f;
@@ -43,14 +43,6 @@ namespace BoatSim
             var pos = new Vector3((float)rng.NextDouble() * 20, 5, (float)rng.NextDouble() * 20);
 
             verlets = new Verlet[]
-            {
-                new Verlet( pos + new Vector3( size, 0, -size ) ), // Front-right
-                new Verlet( pos + new Vector3( size, 0, size ) ),  // Back-right
-                new Verlet( pos + new Vector3( -size, 0, size ) ), // Back-left
-                new Verlet( pos + new Vector3( -size, 0, -size ) ),// Front-left
-                new Verlet( pos + new Vector3( 0, 0, 0 ) ),        // Center (rotor)
-            };
-            verletOrig = new Verlet[]
             {
                 new Verlet( pos + new Vector3( size, 0, -size ) ), // Front-right
                 new Verlet( pos + new Vector3( size, 0, size ) ),  // Back-right
@@ -141,7 +133,7 @@ namespace BoatSim
                 verlet.Acc += Fric;
                 
                 if (ctrlSpace)
-                    verlet.Acc += u * 180f; // Ascend
+                    verlet.Acc += u * 18f; // Ascend
 
                 if (ctrlQ)
                     verlet.Omega = new Vector3(0, 1, 0);
@@ -216,32 +208,31 @@ namespace BoatSim
                 else if (r.Y < -Math.Asin(0.01f)) { tilt(-d * 0.01f); }
 
             }
+
+            if(Math.Abs(d.Y) > Math.Sin(Math.PI / 4)*1.1f)
+            {
+                var i = 1;
+            }
+            
+            var horV = verlets[4].Velocity;
+            horV.Y = 0;
+            horV = Vector3.Normalize(horV);
+            var dirV = d;
+            dirV.Y = 0;
+            dirV = Vector3.Normalize(dirV);
+            var deg = Vector3.Dot(dirV, horV);
+
+            if (1 - deg > 0.01f)
+            {
+                var crossVector = Vector3.Cross(dirV, horV);
+                //var tiltVector = new Vector3(deg, 0, 0);
+                if (crossVector.Y > 0) { tilt(u * 0.01f); }
+                else if (crossVector.Y < 0) { tilt(-u * 0.01f); }
+               
+            }
+            
         }
         
-        public void tiltf(float tiltAmount)
-        {
-            float frontTilt = -tiltAmount; // Lower the front
-            float backTilt = tiltAmount;  // Raise the back
-
-
-            // Adjust Y positions of front and back Verlets
-            verlets[0].Pos.Y += frontTilt; // Front-right
-            verlets[3].Pos.Y += frontTilt; // Front-left
-            verlets[1].Pos.Y += backTilt;  // Back-right
-            verlets[2].Pos.Y += backTilt;  // Back-left
-        }
-        public void tiltside(float tiltAmount)
-        {
-            float frontTilt = -tiltAmount; // Lower the front
-            float backTilt = tiltAmount;  // Raise the back
-            
-            // Adjust Y positions of front and back Verlets
-            verlets[0].Pos.Y += frontTilt; // Front-right
-            verlets[1].Pos.Y += frontTilt;  // Back-right
-            verlets[3].Pos.Y += backTilt; // Front-left
-            verlets[2].Pos.Y += backTilt;  // Back-left
-        }
-
         public void tilt(Vector3 dAlfa)
         {
             verlets[0].Pos += Vector3.Cross(dAlfa, verlets[0].Pos - verlets[4].Pos);
